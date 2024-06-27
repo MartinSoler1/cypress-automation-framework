@@ -2,7 +2,7 @@
 import AutoStore_Homepage_PO from "../../support/pageObjects/automation-test-store/AutoStore_Hompepage_PO";
 import AutoStore_HairCare_PO from "../../support/pageObjects/automation-test-store/AutoStore_HairCare_PO";
 
-describe("Add multiple items to basket", () => {
+describe("Add multiple items to the basket", () => {
   const autoStore_HomePage_PO = new AutoStore_Homepage_PO();
   const autoStore_HairCare_PO = new AutoStore_HairCare_PO();
   before(function () {
