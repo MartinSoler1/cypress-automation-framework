@@ -4,6 +4,7 @@ describe("Test Datepicker via webdriveruni", () => {
   it("Select date from the datepicker", () => {
     cy.visit("https://www.webdriveruniversity.com");
     cy.get("#datepicker").invoke("removeAttr", "target").click({ force: true });
+    cy.get("#datepicker").click();
 
     // let date = new Date();
     // date.setDate(date.getDate())
