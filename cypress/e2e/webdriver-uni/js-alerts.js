@@ -3,7 +3,7 @@
 describe("Handle js alerts", () => {
   it("Confirm js alert contains the correct text", () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("https://www.webdriveruniversity.com");
     cy.get("#popup-alerts")
       .invoke("removeAttr", "target")
       .click({ force: true });
@@ -16,7 +16,7 @@ describe("Handle js alerts", () => {
   });
   it("Validate js confirm alert box works correctly when clicking ok", () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("https://www.webdriveruniversity.com");
     cy.get("#popup-alerts")
       .invoke("removeAttr", "target")
       .click({ force: true });
@@ -31,7 +31,7 @@ describe("Handle js alerts", () => {
 
   it("Validate js confirm alert box works correctly when clicking cancel", () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("https://www.webdriveruniversity.com");
     cy.get("#popup-alerts")
       .invoke("removeAttr", "target")
       .click({ force: true });
@@ -46,7 +46,7 @@ describe("Handle js alerts", () => {
 
   it("Validate js confirm alert box using a stub", () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("https://www.webdriveruniversity.com");
     cy.get("#popup-alerts")
       .invoke("removeAttr", "target")
       .click({ force: true });

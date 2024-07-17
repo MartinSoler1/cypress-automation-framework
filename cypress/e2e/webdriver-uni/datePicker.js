@@ -2,7 +2,7 @@
 
 describe("Test Datepicker via webdriveruni", () => {
   it("Select date from the datepicker", () => {
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("https://www.webdriveruniversity.com");
     cy.get("#datepicker").invoke("removeAttr", "target").click({ force: true });
 
     // let date = new Date();
